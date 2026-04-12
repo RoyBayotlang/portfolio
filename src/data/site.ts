@@ -12,20 +12,16 @@ export const site = {
   calendlyUrl: "https://calendly.com/your-link",
   blogUrl: "https://blog.yoursite.com",
   linkedin: "https://linkedin.com/in/yourprofile",
-  github: "https://github.com/yourprofile",
-  instagram: "https://instagram.com/yourprofile",
+  github: "https://github.com/RoyBayotlang",
+  instagram: "https://www.instagram.com/iiittssrooii/",
 };
 
 export const heroBadges: { label: string; href: string; subtitle?: string }[] =
   [];
 
-export const about = `I am an aspiring full-stack web developer with hands-on experience building end-to-end projects, from planning and structuring ideas to developing, refining, and maintaining functional web applications. I focus on writing clean, efficient code and continuously improving how I design and organize systems as my projects grow.
+export const about = `I am an aspiring full-stack web developer with practical experience building web applications from planning and structuring ideas to developing, refining, and maintaining functional systems. I work with modern frontend technologies including JavaScript, TypeScript, React, Vue.js, Tailwind CSS, and Bootstrap, allowing me to build responsive and component-driven user interfaces. On the backend side, I have experience working with MongoDB and PostgreSQL, giving me exposure to both NoSQL and relational database systems.
 
-Alongside web development, I’ve been involved in collaborative software development work where I’ve contributed to system planning, implementation, and maintaining code quality. These experiences have helped me better understand how real-world applications are built, structured, and scaled over time.
-
-I also work with mobile development using React Native and Flutter, which allows me to expand my skills beyond web into cross-platform application development.
-
-Currently, I’m also exploring areas like DevOps practices, workflow optimization, and AI-assisted development to build applications that are not only functional, but also efficient and scalable in real-world environments.`;
+I actively build projects to strengthen my skills and improve my understanding of real-world development workflows. My current focus is improving my JavaScript and TypeScript proficiency while deepening my full-stack development capabilities. Through consistent hands-on practice, I aim to build scalable, efficient, and well-structured applications while continuing to grow as a developer.`;
 
 export const experience = [
   /**  {
@@ -56,20 +52,30 @@ export const experience = [
 ];
 
 export const techStack = {
-  frontend: ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"],
-  backend: ["Node.js", "Python", "PostgreSQL", "MongoDB"],
-  devops: ["AWS", "Docker", "Kubernetes", "GitHub Actions"],
+  frontend: [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Vue.js",
+    "Tailwind CSS",
+    "Bootstrap",
+  ],
+  backend: ["PostgreSQL", "MongoDB"],
+  devops: ["Docker", "GitHub Actions"],
   modeling: [
+    /**
     "3D Modeling",
     "Blender",
     "Animation",
     "Texture Editing",
     "Unity Game Engine",
     "C#",
+   */
   ],
 };
 
 export const projects = [
+  /** 
   {
     name: "ISySS-CDM",
     description: "CSU & PNP collaborative system platform",
@@ -94,7 +100,7 @@ export const projects = [
     description: "AI-powered workout tracker",
     url: "https://dynamis-app.online",
     domain: "dynamis-app.online",
-  },
+  }, */
 ];
 
 export const certifications: {
@@ -104,19 +110,19 @@ export const certifications: {
   year?: string;
 }[] = [
   {
-    name: "SPARK Technical Training for Blockchain Cryptocurrency Specialist Certification",
-    issuer: "Department of Information and Communications Technology",
-    href: "#",
+    name: "HTML SoloLearn Certification",
+    issuer: "SoloLearn",
+    href: "/img/HTML-cert.jpg",
   },
   {
-    name: "Coursera UX/UI Certification",
-    issuer: "Google",
-    href: "#",
+    name: "CSS SoloLearn Certification",
+    issuer: "SoloLearn",
+    href: "/img/css.jpg",
   },
   {
-    name: "Project Management",
-    issuer: "University of the Philippines",
-    href: "#",
+    name: "SQL SoloLearn Certification",
+    issuer: "SoloLearn",
+    href: "/img/SQL-cert.jpg",
   },
 ];
 
