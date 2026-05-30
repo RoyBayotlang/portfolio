@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -44,13 +45,24 @@ export function Gallery() {
                   key={i}
                   className={cn(
                     "aspect-square cursor-pointer overflow-hidden transition hover:ring-2 hover:ring-primary",
-                    activeIndex === i && "ring-2 ring-primary"
+                    activeIndex === i && "ring-2 ring-primary",
                   )}
                   onClick={() => setActiveIndex(activeIndex === i ? null : i)}
                 >
-                  <div className="flex h-full w-full items-center justify-center bg-muted text-muted-foreground">
-                    <span className="text-xs font-medium">{i + 1}</span>
-                  </div>
+                  {i === 2 ? (
+                    <div className="relative h-full w-full">
+                      <Image
+                        src="/img/devfest.png"
+                        alt={`Gallery ${i + 1}`}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  ) : (
+                    <div className="flex h-full w-full items-center justify-center bg-muted text-muted-foreground">
+                      <span className="text-xs font-medium">{i + 1}</span>
+                    </div>
+                  )}
                 </Card>
               );
             })}
