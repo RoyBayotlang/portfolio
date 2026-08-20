@@ -1,13 +1,10 @@
 export const site = {
-  name: "Roy Bayotlangg",
+  name: "Roy Bayotlang",
   location: "Butuan City, Philippines",
   tagline: "Web Developer | UX/UI Designer",
-  /** Optional: URL to profile image (e.g. /avatar.jpg). Leave empty for initials placeholder. */
-  avatarUrl: "/img/avatar.jpg" as string | undefined,
-  /** Show verified checkmark next to name */
+  avatarUrl: "/img/avatar.jpg",
   verified: true,
-  /** Optional: Facebook profile URL – verified badge links here when set */
-  facebookUrl: "" as string | undefined,
+  facebookUrl: "",
   email: "your@email.com",
   calendlyUrl: "https://calendly.com/your-link",
   blogUrl: "https://blog.yoursite.com",
@@ -16,39 +13,20 @@ export const site = {
   instagram: "https://www.instagram.com/iiittssrooii/",
 };
 
-export const heroBadges: { label: string; href: string; subtitle?: string }[] =
-  [];
+export const heroBadges = [];
 
-export const about = `I am an aspiring full-stack web developer with practical experience building web applications from planning and structuring ideas to developing, refining, and maintaining functional systems. I work with modern frontend technologies including JavaScript, TypeScript, React, Vue.js, Tailwind CSS, and Bootstrap, allowing me to build responsive and component-driven user interfaces. On the backend side, I have experience working with MongoDB and PostgreSQL, giving me exposure to both NoSQL and relational database systems.
+export const about = `Full-stack web developer with practical experience in designing, developing, refining, and maintaining web applications. Proficient in modern frontend technologies, including JavaScript, React, Vue.js, CSS, and Bootstrap, with a focus on developing responsive, maintainable, and component-based user interfaces. Experienced in working with Supabase and PostgreSQL for backend services and database management.
 
-I actively build projects to strengthen my skills and improve my understanding of real-world development workflows. My current focus is improving my JavaScript and TypeScript proficiency while deepening my full-stack development capabilities. Through consistent hands-on practice, I aim to build scalable, efficient, and well-structured applications while continuing to grow as a developer.`;
+Continuously develops and refines projects to strengthen technical proficiency and gain practical experience with real-world development workflows. Currently focused on advancing expertise in React and Supabase while further developing full-stack capabilities. Committed to building scalable, efficient, and well-structured applications while continuously improving technical knowledge and development practices.`;
 
 export const experience = [
-  /**  {
-    role: "Student Developer (Contributor)",
-    company: "ISySS-CDM CSU",
-    year: "2026",
-  },
-  {
-    role: "Systems Developer / Analyst",
-    company: "DA-BAFE ABEMIS 3.0",
-    year: "2025",
-  },
-  {
-    role: "Software Developer (Contributor)",
-    company: "MARVEL Technologies",
-    year: "2022",
-  },
-  {
-    role: "IT Student / Developer",
-    company: "Caraga State University",
-    year: "2019–Present",
-  },
-  {
-    role: "Self-Taught Developer",
-    company: "Personal Coding Journey",
-    year: "2015–Present",
-  },*/
+  /*
+  { role: "Student Developer (Contributor)", company: "ISySS-CDM CSU", year: "2026" },
+  { role: "Systems Developer / Analyst", company: "DA-BAFE ABEMIS 3.0", year: "2025" },
+  { role: "Software Developer (Contributor)", company: "MARVEL Technologies", year: "2022" },
+  { role: "IT Student / Developer", company: "Caraga State University", year: "2019–Present" },
+  { role: "Self-Taught Developer", company: "Personal Coding Journey", year: "2015–Present" },
+  */
 ];
 
 export const techStack = {
@@ -62,53 +40,19 @@ export const techStack = {
   ],
   backend: ["PostgreSQL", "MongoDB"],
   devops: ["Docker", "GitHub Actions"],
-  modeling: [
-    /**
-    "3D Modeling",
-    "Blender",
-    "Animation",
-    "Texture Editing",
-    "Unity Game Engine",
-    "C#",
-   */
-  ],
+  modeling: [],
 };
 
 export const projects = [
-  /** 
-  {
-    name: "ISySS-CDM",
-    description: "CSU & PNP collaborative system platform",
-    url: "https://isyss-cdm.web.app/",
-    domain: "isyss-cdm.web.app",
-  },
-  {
-    name: "ABEMIS 3.0",
-    description:
-      "Agricultural & Biosystems Engineering Management Information System",
-    url: "https://abemis-front.vercel.app/",
-    domain: "abemis-front.vercel.app",
-  },
-  {
-    name: "MARVEL Technologies",
-    description: "AR/VR technology initiative and simulation platform",
-    url: "https://chci.carsu.edu.ph/marvel-technologies/",
-    domain: "chci.carsu.edu.ph",
-  },
-  {
-    name: "DYNAMIS Workout Tracker",
-    description: "AI-powered workout tracker",
-    url: "https://dynamis-app.online",
-    domain: "dynamis-app.online",
-  }, */
+  /*
+  { name: "ISySS-CDM", description: "CSU & PNP collaborative system platform", url: "https://isyss-cdm.web.app/", domain: "isyss-cdm.web.app" },
+  { name: "ABEMIS 3.0", description: "Agricultural & Biosystems Engineering Management Information System", url: "https://abemis-front.vercel.app/", domain: "abemis-front.vercel.app" },
+  { name: "MARVEL Technologies", description: "AR/VR technology initiative and simulation platform", url: "https://chci.carsu.edu.ph/marvel-technologies/", domain: "chci.carsu.edu.ph" },
+  { name: "DYNAMIS Workout Tracker", description: "AI-powered workout tracker", url: "https://dynamis-app.online", domain: "dynamis-app.online" },
+  */
 ];
 
-export const certifications: {
-  name: string;
-  issuer: string;
-  href: string;
-  year?: string;
-}[] = [
+export const certifications = [
   {
     name: "HTML SoloLearn Certification",
     issuer: "SoloLearn",
